@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title>Animal Planet</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .menu {
+                display: flex;
+                justify-content: center;
+                margin: 10px 0;
+                padding: 20px;
+                background-color: lightgray;
+            }
+
+            .menu1{
+                color: black;
+                margin: 0 50px;
+            }
+
+            div a{
+                text-decoration: none;
+            }
+            .menu1:hover {
+                border-bottom-style: solid;
+                border-bottom-color: gray;
+                border-bottom-width: 2px;;
+            }
+            .dsbaiviet {
+                display: grid;
+                grid-template-columns: auto auto;
+                width: 100%;
+            }
+            .dsbaiviet img {
+                width: 45%;
+                border-radius: 8px;
+            }
+            .nutbam {
+                padding: 10px;
+                text-decoration: none;
+                background-color: blue;
+                color: white;
+                border-radius: 6px;
+            }
+            .nutbam:hover {
+                background-color: chartreuse;
+                color: red;
+            }
+            .baiviet {
+                margin-bottom: 20px;
+            }
+            @media screen and (max-width: 375px) {
+                div .menu {
+                    font-size: 14px;
+                }
+                .dsbaiviet {
+                    display: grid;
+                    grid-template-columns: auto;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="menu">
+            <a class="menu1" href="#">Trang chủ</a>
+            <a class="menu1" href="#">Động vật có vú</a>
+            <a class="menu1" href="#">Chim chóc</a>
+            <a class="menu1" href="#">Giới thiệu</a>
+        </div>
+        <div class="dsbaiviet">
+            <div class="baiviet">
+                <img src="https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2019/11/4/763881/D1.jpg" width="25%"/>
+                <p>Gấu trúc là loài động vật hiền lành</p>
+                <a class="nutbam" href="classroom\kiemtragiuakylan2\chitietbaiviet1.html">Đọc thêm</a>
+            </div>
+            <div class="baiviet">
+                <img src="https://sre.com.vn/wp-content/uploads/2020/12/them-mot-quan-the-ca-voi-xanh-moi-duoc-phat-hien-8709852-4x3-xlarge.jpg" width="25%"/>
+                <p>Cá voi xanh</p>
+                <a class="nutbam" href="classroom\kiemtragiuakylan2\chitietbaiviet2.html">Đọc thêm</a>
+            </div>
+            <div class="baiviet">
+                <img src="https://vetcanh.com/wp-content/uploads/2021/10/Lovebirds-GettyImages-510427100-58d005853df78c3c4f3b36e3-scaled.webp"/>
+                <p>Vẹt Lovebird | Vẹt cảnh</p>
+                <a class="nutbam" href="kiemtragiuakylan2\chitietbaiviet.html">Đọc thêm</a>
+            </div>
+            <div class="baiviet">
+                <img src="https://cdn.eva.vn/upload/3-2022/images/2022-08-12/image31-1660292104-121-width2048height1972.jpg"/>
+                <p>Mèo Anh lông ngắn</p>
+                <a class="nutbam" href="classroom\kiemtragiuakylan2\chitietbaiviet4.html.html">Đọc thêm</a>
+            </div>
+        </div>
+    </body>
+</html>
